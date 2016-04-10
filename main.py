@@ -9,7 +9,11 @@ def main():
     headers = { 'Referer': 'https://order.dominos.com/en/pages/order/' }
     menu_request = requests.get(menu_url, headers = headers)
     menu_data = menu_request.json()
-    print(menu_data['Toppings'][')
+
+    toppings = menu_data['Toppings']['Pizza']
+    toppings = {v['Name']:k for k,v in toppings.iteritems()}
+
+    print(toppings)
 
 def getPizza():
     valid_sizes = ['small', 'medium', 'large']
