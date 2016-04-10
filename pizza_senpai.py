@@ -1,4 +1,3 @@
-
 def sentence_order(options):
     confirmation = ['order']
     crust = ['hand-tossed']
