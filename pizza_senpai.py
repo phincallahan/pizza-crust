@@ -1,4 +1,3 @@
-
 def sentence_order(args):
 	confirmation = ['order']
 	crust = ['hand-tossed']
@@ -6,7 +5,6 @@ def sentence_order(args):
 	sauce = ['robust inspired tomato sauce']
 	toppings = ['cheese', 'pepperoni', 'sausage']
 	number = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
-
 	options = [confirmation, crust, size, sauce, toppings, number]
 	string_options = ['confirmation', 'crust', 'size', 'sauce', 'toppings', 'number']
 
